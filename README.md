@@ -1,6 +1,6 @@
 # android-builder 
 
-Build android apps in docker. This us usally used as a base image in mulilayer builds. 
+Build android apps in docker. This is usually used as a base image in multilayer builds. 
 
 ## Getting Started
 
