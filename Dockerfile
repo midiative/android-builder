@@ -25,5 +25,3 @@ RUN mv gradle-7.2 gradle
 
 # update $PATH
 ENV PATH="$GRADLE_HOME/gradle/bin:${PATH}"
-
-VOLUME [ "$ANDROID_SDK_ROOT" ]
