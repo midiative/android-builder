@@ -19,9 +19,9 @@ ENV PATH="$ANDROID_SDK_MANAGER/cmdline-tools/bin:${PATH}"
 
 # install gradle
 WORKDIR $GRADLE_HOME
-RUN wget -O gradle.zip https://services.gradle.org/distributions/gradle-7.2-bin.zip
+RUN wget -O gradle.zip https://services.gradle.org/distributions/gradle-7.5.1-bin.zip
 RUN unzip  gradle.zip
-RUN mv gradle-7.2 gradle
+RUN mv gradle-7.5.1 gradle
 
 # update $PATH
 ENV PATH="$GRADLE_HOME/gradle/bin:${PATH}"
